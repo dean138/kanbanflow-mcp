@@ -17,13 +17,13 @@
       in {
         default = pkgs.buildNpmPackage rec {
           pname = "kanbanflow-mcp-server";
-          version = "1.0.4";  # Fork with date display fix
+          version = "1.0.5";  # Fork with subtask status, due dates, relations display
 
           src = pkgs.fetchFromGitHub {
             owner = "dean138";
             repo = "kanbanflow-mcp-server";
-            rev = "1a5b627976231e4d71b8ca8ad5dd149340f9daf5";
-            hash = "sha256-H/VzEx3kLXaMJvFEkAsQ/CGJVrYBVFF/9WXoc/dwk+k=";
+            rev = "b5460453456347ab97c4c41bc2846a89df209e49";
+            hash = "sha256-XcCci9BSXRI3f/cFKq3uyE63ygHbxVhPHAuf2Y5NAaA=";
           };
 
           npmDepsHash = "sha256-PEY1iFxDkqlqskLqVw/Nq5fFN7Bo/dvlxZewrHFwg2Q=";
