@@ -26,7 +26,7 @@
             hash = "sha256-XcCci9BSXRI3f/cFKq3uyE63ygHbxVhPHAuf2Y5NAaA=";
           };
 
-          npmDepsHash = "sha256-PEY1iFxDkqlqskLqVw/Nq5fFN7Bo/dvlxZewrHFwg2Q=";
+          npmDepsHash = "sha256-8UnxkfE6gR6GgJPxrOye8BlZCx+pHBPR2rwpbcOJm7Q=";
 
           # TypeScript project - needs to build
           npmBuildScript = "build";
